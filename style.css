@@ -302,3 +302,151 @@ footer ul li a{
     color: #387E7B;
 }
 
+
+@media screen and (min-width:1205px) and (max-width:1280px){
+
+    .main{
+        margin: 8.5em 0 0 0;
+    }
+
+    .main .title{
+        margin-left: 22px;
+    }
+
+    .main .title span{
+        font-size: 65px;
+    }
+
+    .main .subtext{
+        margin-top: 30px;
+    }
+
+    /* SIDE */
+    .theMain .side{
+        width: 28.1%;
+    }
+
+    .theMain .side h2{
+        font-size: 20px;
+        margin: 25px 0 0 25px;
+    }
+
+    .side ul li{
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+    .fa-arrow-right{
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-width:1204px){
+
+    .navi li a{
+        font-size: 8px;
+    }
+
+    .navi .plants a{
+        font-size: 15px;
+    }
+
+    .social{
+        margin-top: 4px;
+    }
+
+    .social a{
+        font-size: 12px;        
+    }
+
+    .main{
+        margin: 6em 0 0 .6em;
+    }
+
+    .main .title{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .main .title span{
+        font-size: 55px;
+    }
+
+    .main .subtext{
+        margin-top: 30px;
+  
+    }
+
+    .main .subtext{
+        margin-left: 4.8em;
+        width: 80%;
+    }
+
+    .subtitle{
+        font-size: 10px;
+    }
+
+    .subtitle2{
+        font-size: 10px;
+    }
+
+    .source{
+        font-size: 8px;
+    }
+
+    .fa-arrow-right{
+        font-size: 12px;
+    }
+
+    /* SIDE */
+    .theMain .side{
+        width: 28%;
+        margin: 3em 6em;
+    }
+
+    .theMain .side h2{
+        font-size: 15px;
+        margin: 15px 0 0 10px;
+    }
+
+    .theMain .side ul{
+       padding-left: 20px;
+    }
+
+    .side ul li{
+        font-weight: 500;
+        font-size: 8px;
+
+        margin: 20px 0;
+    }
+
+    .side ul li:before{
+        font-size: 10px;
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    /* FOOTER */
+
+    footer ul li{
+        margin: 0 10px;
+        padding: 5px 0;
+    }
+    
+    footer ul li a{
+        text-decoration: none;
+        font-size: 7px;
+
+        vertical-align: middle;
+    }
+    
+    .footerO1 li{
+        margin: 0 20px;
+    }
+
+    .footerO2{
+        margin: 0 10px;
+    }
+}
